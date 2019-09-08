@@ -1,0 +1,289 @@
+
+{
+  "header": {
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20190907.102417.17784.0.001.json",
+    "dumpEventTime": "2019-09-07T10:24:17Z",
+    "processId": 17784,
+    "commandLine": [
+      "node",
+      "C:\\Users\\huxx\\AppData\\Roaming\\npm\\\\node_modules\\gatsby-cli\\lib\\index.js",
+      "develop"
+    ],
+    "nodejsVersion": "v11.13.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "11.13.0",
+      "v8": "7.0.276.38-node.18",
+      "uv": "1.27.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "67",
+      "nghttp2": "1.34.0",
+      "napi": "4",
+      "llhttp": "1.1.1",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1b",
+      "cldr": "34.0",
+      "icu": "63.1",
+      "tz": "2018e",
+      "unicode": "11.0"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v11.13.0/node-v11.13.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v11.13.0/node-v11.13.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v11.13.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18965",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "host": "mi"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff6fc52cffe",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fc52bea9",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fc52b733",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fc619292",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fca3fd8e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fca3fcc7",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fcaf37a4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fcae95c8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fcae7dc8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fcaf16f7",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fcaf1776",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fcc29641",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fcce3506",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000001d014550481",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 209661952,
+    "totalCommittedMemory": 209661952,
+    "usedMemory": 196838456,
+    "availableMemory": 1324282928,
+    "memoryLimit": 1526909922,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 524288,
+        "committedMemory": 524288,
+        "capacity": 515584,
+        "used": 33520,
+        "available": 482064
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1031168,
+        "used": 1031136,
+        "available": 32
+      },
+      "old_space": {
+        "memorySize": 158535680,
+        "committedMemory": 158535680,
+        "capacity": 155684960,
+        "used": 149937264,
+        "available": 5747696
+      },
+      "code_space": {
+        "memorySize": 5767168,
+        "committedMemory": 5767168,
+        "capacity": 5230784,
+        "used": 4665472,
+        "available": 565312
+      },
+      "map_space": {
+        "memorySize": 5255168,
+        "committedMemory": 5255168,
+        "capacity": 5159184,
+        "used": 4133440,
+        "available": 1025744
+      },
+      "large_object_space": {
+        "memorySize": 38531072,
+        "committedMemory": 38531072,
+        "capacity": 1353499704,
+        "used": 37037624,
+        "available": 1316462080
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 21.671,
+    "kernelCpuSeconds": 20.093,
+    "cpuConsumptionPercent": 6.94908,
+    "maxRss": 407875584,
+    "pageFaults": {
+      "IORequired": 228387,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 8510,
+      "writes": 158
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=::": "::\\",
+    "=C:": "C:\\",
+    "=D:": "D:\\desktop\\huxicode\\gatsby-starter-uifabric",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\huxx\\AppData\\Roaming",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132044418503698651",
+    "ChocolateyToolsLocation": "C:\\tools",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "MI",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "GATSBY_BUILD_STAGE": "develop",
+    "gatsby_executing_command": "develop",
+    "gatsby_log_level": "normal",
+    "GOPATH": "C:\\Users\\huxx\\go",
+    "GOROOT": "C:\\Go\\",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\huxx",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk-10.0.1",
+    "LOCALAPPDATA": "C:\\Users\\huxx\\AppData\\Local",
+    "LOGONSERVER": "\\\\MI",
+    "NODE_ENV": "development",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OneDrive": "D:\\pub\\Onedrive",
+    "OneDriveConsumer": "D:\\pub\\Onedrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Program Files (x86)\\NetSarang\\Xshell 6\\;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\NetSarang\\Xftp 6\\;C:\\ProgramData\\Boxstarter;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Python37\\Scripts\\;C:\\Program Files\\Python37\\;C:\\Program Files (x86)\\Python37-32\\Scripts\\;C:\\Program Files (x86)\\Python37-32\\;C:\\tools\\ruby25\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Microsoft VS Code\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\PowerShell\\6\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\GitExtensions\\;C:\\Go\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\huxx\\AppData\\Roaming\\npm;C:\\Users\\huxx\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\huxx\\AppData\\Local\\Yarn\\bin;C:\\Program Files\\7-Zip;D:\\pub\\apktool",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC;.RB;.RBW;.PY;.PYW;.CPL",
+    "PhpStorm": "C:\\Program Files\\JetBrains\\PhpStorm 2019.1.1\\bin;",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "8e0a",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "D:\\文档\\WindowsPowerShell\\Modules;C:\\ProgramData\\Boxstarter;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PyCharm": "C:\\Program Files\\JetBrains\\PyCharm 2019.1.1\\bin;",
+    "PyCharm Community Edition": "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2018.3\\bin;",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\huxx\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\huxx\\AppData\\Local\\Temp",
+    "USERDOMAIN": "MI",
+    "USERDOMAIN_ROAMINGPROFILE": "MI",
+    "USERNAME": "huxx",
+    "USERPROFILE": "C:\\Users\\huxx",
+    "VS140COMNTOOLS": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\",
+    "windir": "C:\\WINDOWS",
+    "work": "D:\\work"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\ntmarta.dll"
+  ]
+}
