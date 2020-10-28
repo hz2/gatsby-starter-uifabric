@@ -40,7 +40,7 @@ const App: React.FunctionComponent = () => {
         <Link href="https://stackoverflow.com/questions/tagged/office-ui-fabric">
           Stack Overflow
         </Link>
-        <Link href="https://github.com/officeDev/office-ui-fabric-react/">
+        <Link href="https://github.com/officeDev/@fluentui/react/">
           Github
         </Link>
         <Link href="https://twitter.com/officeuifabric">Twitter</Link>

@@ -16,7 +16,6 @@
     "@fluentui/react": "^7.148.1",
     "@uifabric/fluent-theme": "^0.16.21",
     "gatsby": "^2.24.90",
-    "office-ui-fabric-react": "^6.214.1",
     "react": "^17",
     "react-dom": "^17"
   },
