@@ -5,7 +5,6 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "dev": "gatsby develop",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
@@ -14,15 +13,16 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
-    "@uifabric/fluent-theme": "^0.16.7",
-    "gatsby": "^2.4.0",
-    "office-ui-fabric-react": "^6.176.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "@fluentui/react": "^7.148.1",
+    "@uifabric/fluent-theme": "^0.16.21",
+    "gatsby": "^2.24.90",
+    "office-ui-fabric-react": "^6.214.1",
+    "react": "^17",
+    "react-dom": "^17"
   },
   "devDependencies": {
-    "gatsby-plugin-typescript": "^2.0.13",
-    "prettier": "^1.17.0"
+    "gatsby-plugin-typescript": "^2.4.24",
+    "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
