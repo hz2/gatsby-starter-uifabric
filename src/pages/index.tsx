@@ -21,7 +21,12 @@ const App: React.FunctionComponent = () => {
       className="App"
       gap={15}
     >
-      <img
+      <Text variant="xxLarge" styles={boldStyle}>
+        Home
+      </Text>
+      <Link href="playground">playground</Link>
+
+      {/* <img
         src="https://raw.githubusercontent.com/Microsoft/just/master/packages/just-stack-uifabric/template/src/components/fabric.png"
         alt="logo"
       />
@@ -58,7 +63,7 @@ const App: React.FunctionComponent = () => {
         <Link href="https://developer.microsoft.com/en-us/fabric#/styles/themegenerator">
           Theme
         </Link>
-      </Stack>
+      </Stack> */}
     </Stack>
   )
 }
