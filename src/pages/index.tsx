@@ -1,32 +1,34 @@
 import React from "react"
 import { Stack, Text, Link, FontWeights } from "@fluentui/react"
 import "./index.css"
+import Layout from "../components/layout"
 
 const boldStyle = { root: { fontWeight: FontWeights.semibold } }
 
 const App: React.FunctionComponent = () => {
   return (
-    <Stack
-      horizontalAlign="center"
-      verticalAlign="center"
-      verticalFill
-      styles={{
-        root: {
-          width: "960px",
-          margin: "0 auto",
-          textAlign: "center",
-          color: "#605e5c",
-        },
-      }}
-      className="App"
-      gap={15}
-    >
-      <Text variant="xxLarge" styles={boldStyle}>
-        Home
-      </Text>
-      <Link href="playground">playground</Link>
-
-      {/* <img
+    <Layout>
+      <Stack
+        horizontalAlign="center"
+        verticalAlign="center"
+        verticalFill
+        styles={{
+          root: {
+            width: "960px",
+            margin: "0 auto",
+            textAlign: "center",
+            color: "#605e5c",
+          },
+        }}
+        className="App"
+        gap={15}
+      >
+        <Text variant="xxLarge" styles={boldStyle}>
+          Home
+        </Text>
+        <Link href="about">about</Link>
+        <Link href="playground">playground</Link>
+        {/* <img
         src="https://raw.githubusercontent.com/Microsoft/just/master/packages/just-stack-uifabric/template/src/components/fabric.png"
         alt="logo"
       />
@@ -64,7 +66,8 @@ const App: React.FunctionComponent = () => {
           Theme
         </Link>
       </Stack> */}
-    </Stack>
+      </Stack>
+    </Layout>
   )
 }
 
