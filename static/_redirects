@@ -1,3 +1,2 @@
 
 # Redirect default Netlify subdomain to primary domain
-https://qings.netlify.com/* https://qings.art/:splat 301!

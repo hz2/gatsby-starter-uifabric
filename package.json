@@ -13,12 +13,19 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
+    "@emotion/core": "^10.1.1",
     "@fluentui/react": "^7.148.1",
     "@uifabric/fluent-theme": "^0.16.21",
     "gatsby": "^2.24.90",
+    "gatsby-plugin-emotion": "^4.3.15",
+    "gatsby-plugin-typography": "^2.5.13",
     "loadash": "^1.0.0",
     "react": "^17",
-    "react-dom": "^17"
+    "react-dom": "^17",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-fairy-gates": "^0.16.19",
+    "typography-theme-kirkham": "^0.16.19"
   },
   "devDependencies": {
     "gatsby-plugin-typescript": "^2.4.24",
