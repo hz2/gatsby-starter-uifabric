@@ -3,6 +3,9 @@
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
 </p>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f6234e89-9ffc-4e69-9531-1fe537d5c2f1/deploy-status)](https://app.netlify.com/sites/sleepy-gold/deploys)
+
 <h1 align="center">
   UI Fabric Gatsby.js
 </h1>
